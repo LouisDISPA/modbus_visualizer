@@ -26,7 +26,7 @@
 
 ### Install dependencies
 1. Clone the repository and checkout the develop branch (default)
-1. Install dependencies with `pip install -r requirements.txt` (can be in virtualenv)
+1. Install dependencies with `pip install -r requirements.txt` (can be in virtualenv) or use `pipenv install` (with pipenv installed)
 1. Install `pyqt5-tools` Global or user python installation (not virtualenv)
 
 ### Editing the `.ui` files
@@ -38,7 +38,7 @@ pyuic5 ./ui_files/modbus_visualizer.ui > ./visualizer/gui_main_window.py
 ```
 
 ### Running
-Run the program: `python main.py`
+Run the program: `python main.py` or `pipenv run main`
 
 
 ### Testing
